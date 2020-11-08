@@ -23,7 +23,7 @@ int main(void)
 {
                                 // YOUR STATEMENT goes on THIS LINE
     lcd.clear();
-    lcd.setRGB(0x00,0x00,0xff);
+    lcd.setRGB(0xFF,0x00,0x00);
     for(;;)
     {
         while(counter <=6)
