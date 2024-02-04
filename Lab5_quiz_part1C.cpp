@@ -21,7 +21,7 @@ Grove_LCD_RGB_Backlight lcd(D14,D15);
 
 int main(void)
 {
-    Carmine.attach(&count,2);                            // YOUR STATEMENT goes on THIS LINE
+                                // YOUR STATEMENT goes on THIS LINE
     lcd.clear();
     lcd.setRGB(0xFF,0x00,0x00);
     for(;;)
